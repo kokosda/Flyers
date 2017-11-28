@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin,latin-ext);
+html{height:100%;}
+body{min-height:100%; background:#f9f9f9; color:#515254; font-family: 'Lato', sans-serif; font-weight:400; font-size:100%; position:relative;}
+
+.message{background: #f0e3bd; font-size: 0.857em; font-weight: 700; color: #f46a02; text-align: center; line-height: 1em; padding: 15px 3% 15px; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; overflow: hidden; width: 90%; margin: 15px 2%;}
+.message.ok{background: #ddf9ba; color: #429c0b;}
+.message.error{background: #f2d7d7; color: #d21b1b;}
+.message.system{background: #09509e; color: #fff000 ;}
+
+header{width:100%; height:50px; margin: 0 0 18px; background:#ffffff;}
+	header .logo{width:102px; height:27px; float:left; margin:12px 0 0 40px;}
+.wrapper{width:100%; overflow:hidden; margin:0; padding:0; }
+.item{width: 90%; height: 80%; margin:0 auto 18px; overflow: hidden;}
+
+.item label{width:114px; padding:0 16px 0 0; display:block; float:left; line-height:2.25em; text-align:right; font-size: 1.143em}
+.item input[type="password"],
+.item input[type="mail"],
+.item input[type="text"]{height:38px; border:0; width:65%; padding:0 12px; background:#ffffff;  border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; float: left;font-size: 0.875em;}
+.item textarea{height:150px; border:0; width:65%; margin: 0 auto; padding:12px; background:#ffffff;  border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; resize: none; font-size: 1em; line-height: 1.375em}
+.item .test-input{padding:6px 12px;  float: left; max-width:65%; line-height: 1.5em;}
+.item .description{margin: 16px 0 16px 130px;}
+.item-actions{width: 100%; float: left; position: absolute; bottom: 0; left: 0;}
+.item-actions input[type="submit"]{width: 50%; height: 68px; border: 0; float: left;color:#ffffff; background:#f46a02; text-transform: uppercase;font-size: 1em;}
+.item-actions input[type="submit"].close{ background: #cecfd0;}
+.item-actions input[type="submit"]:hover{background:#989898;}
+.content{width:100%; float:left; padding:10px 0 88px 0;}

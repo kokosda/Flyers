@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/MasterPage.master" CodeFile="WebBeacons.aspx.cs" Inherits="FlyerMe.WebBeacons" %>

@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: /admin/
+Disallow: /css/
+Disallow: /controls/
+Disallow: /createflyer/
+Disallow: /js/
+Disallow: /order/
+Disallow: /scripts/
+Sitemap: http://www.flyerme.com/xmlfeeds/sitemap.xml

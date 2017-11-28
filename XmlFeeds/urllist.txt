@@ -1,0 +1,13 @@
+﻿http://localhost/flyerme
+http://localhost/flyerme/prices.aspx
+http://localhost/flyerme/samples.aspx
+http://localhost/flyerme/faq.aspx
+https://localhost/flyerme/signup.aspx
+http://localhost/flyerme/syndicationtool.aspx
+http://localhost/flyerme/sitemap.aspx
+http://localhost/flyerme/contacts.aspx
+http://localhost/flyerme/whatsnew.aspx
+http://localhost/flyerme/showflyer.aspx?orderid=3
+http://localhost/flyerme/showflyer.aspx?orderid=4
+http://localhost/flyerme/showflyer.aspx?orderid=6
+http://localhost/flyerme/showflyer.aspx?orderid=17

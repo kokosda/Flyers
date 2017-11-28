@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+select::-ms-expand {display: none;}
+select{-moz-appearance: none; text-indent: 0.01px; text-overflow: ''; -ms-appearance: none; appearance: none!important;}
+input {-webkit-appearance: none;}
+	
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder {color: transparent}
+:focus:-moz-placeholder {color: transparent}
+:focus:-ms-input-placeholder {color: transparent}
+
+form{font-size: 1em;}
+
+#editor {position:relative; height:150px;width:61%; line-height:normal; background:#f8f8f8; padding:0 1%; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; border:1px solid #e2e2e9;}
+
+.big #editor{ height:300px;width:80%;}
+.loginform input[type="password"],
+.loginform input[type="text"]{width:85%; height:48px; padding:0 7.5%; margin:0 0 17px; font-size:1em; color:#515254; border-radius:22px; -webkit-border-radius:25px; -moz-border-radius:25px; border:0; background:#ffffff; border:3px solid transparent}
+.loginform input[type="password"].error,
+.loginform input[type="text"].error{border-color: #f17b21}
+.loginform input[type="submit"]{width:100%; height:48px; padding:0; margin:0; font-size:1.125em; font-weight:700; color:#ffffff; border-radius:22px; -webkit-border-radius:22px; -moz-border-radius:22px; border:1px solid #f46a02; background:#f46a02;}
+.loginform input[type="submit"]:hover{background:#ffffff; color:#f46a02;}
+
+.item{width:100%; float:left; padding:0 0 18px; position: relative;}
+.item .test-input{padding:6px 12px; font-size: 1.143em; float: left; max-width:61%; line-height: 1.5em;}
+
+.item .tekst-input{padding:6px 0px; font-size: 1.143em; float: left; width:64%; line-height: 1.5em;}
+.item .tekst-input a{color: #f46a02; text-decoration: underline; display: block; float: left;}
+.item .tekst-input a:hover{text-decoration: none;}
+.item .tekst-input input[type="submit"]{display:block; padding:4px 12px; margin:-4px 0 0 ; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; background:#f0f0f0; text-decoration:none; color:#515254; font-weight:400; border: 2px solid #f0f0f0; height: 35px; font-size: 1em; float: right;}
+.item .tekst-input input[type="submit"]:hover{background: #ffffff;}
+.item.choice{width:217px; float:left; padding: 40px 23px 9px 0;}
+.item.choice select{width: 100%; font-weight: 700;}
+.item select{width:64.3%; color:#b1b1b1; padding:0px 13px; height:38px; border:1px solid #fff; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; font-size:1em; background:#ffffff url(../images/chekboxes.png) no-repeat right -88px; font-size:1em; color:#515254; cursor:pointer; appearance:none;-moz-appearance: none; -webkit-appearance: none; -ms-appearance: none;}
+.item select option{-webkit-appearance: none; -moz-appearance: none;  appearance: none; padding:5px 13px; line-height:2em}
+.item label{width:115px; padding:0 16px 0 0; display:block; float:left; line-height:2.25em; text-align:right; font-size: 1.143em}
+.item label span.required{margin: 0 -9px 0 3px; color: #d21b1b; font-weight: 700;}
+.admin .item label{width:143px;}
+.item .description{margin: 16px 0 16px 136px;}
+.texts .item label{width:120px;}
+.item input[type="password"],
+.item input[type="email"],
+.item input[type="text"]{height:38px; border:0; width:61%; padding:0 12px; background:#ffffff;  border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; float: left;}
+.item.upload input[type="file"]{position:absolute; top:0; left:0; width:100%; height:55px; opacity:0; cursor:pointer; z-index:1;}
+.item .file-text{width:46%; padding:0 13px; height:38px; border-radius:2px; -webkit-border-radius:2px; -moz-border-radius:2px; font-size:1em; white-space:nowrap; text-overflow:ellipsis; overflow: hidden; background: #ffffff; float: left;line-height:2.2em; }
+.item .file-submit{height:38px; padding: 0 20px; border-color:#224da3; background:#224da3; border-radius:18px; -webkit-border-radius:18px; -moz-border-radius:18px; float:left; font-size:0.688em; 
+	text-transform:uppercase; color:#fff;  line-height:3.4em; font-weight:700; margin: 0 0 0 2%;}
+
+.item textarea{height:150px; border:0; width:61%; padding:0 12px; background:#ffffff;  border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; resize: none; font-size: 1.143em; line-height: 1.375em}
+input[type="submit"]{ height:43px; background:#f46a02; padding:0 28px; border:2px solid #f46a02; color:#ffffff; border-radius:22px; -webkit-border-radius:22px; -moz-border-radius:22px; font-weight:600; font-size:1.125em;}
+input[type="submit"]:hover{background:#ffffff; color:#f46a02;}
+
+input[type="submit"].clear{background: transparent; border-color: #949494; color: #949494; margin: 0 0 0 16px; padding:0 28px}
+input[type="submit"].clear:hover{background: #949494; color: #ffffff; }
+
+.add-agents .item-box .item .select-item input[type="submit"],
+ #content .outside-content .contnet .table table td input[type="submit"]{ height:32px; width: 156px; background:transparent; padding:0; border:2px solid #e6e6e6; color:#515254; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; font-weight:600; font-size:1em;}
+.add-agents .item-box .item .select-item input[type="submit"]:hover,
+#content .outside-content .contnet .table table td input[type="submit"]:hover{background: #e6e6e6; /*color: #f46a02;*/}
+
+.bigform{width: 100%; max-width: 680px; padding: 40px 0 0 0;}
+.bigform label{width: 31px;}
+.bigform input[type="text"],
+.bigform input[type="email"]{width: 88%;}
+.bigform .item-submit{padding: 0 0 0 36px; text-align: center}
+.bigform .item-submit input[type="submit"]{margin: 0 11px 11px;}
+
+
+.search label{font-size: 0.875em; letter-spacing: -0.05em;}
+.search .box{height:40px; width:424px; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; background:#ffffff;}
+	.add-agents .box input[type="submit"],
+	.search .box input[type="submit"]{width:38px; height:40px; overflow:hidden; text-indent:-999px; background:#ffffff url(../images/icons.png) no-repeat 10px -131px; border:0; float:right; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; padding:0;}
+    .add-agents .box input[type="text"],
+	.search .box input[type="text"]{height:40px; border:0; width:360px; padding:0 12px; background:#ffffff;  border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; font-size: 1em}
+.add-agents .item-box,
+.search .item-box{width:49%; float:left; padding:23px 0 0 0;}
+.search .item-box.big{width:455px; float:left; padding:23px 0 0 0;}
+.search .item-box .item textarea{height: 93px;}
+.search .item-box .description{width: 75%; color: #abacad; max-width: 320px;  line-height: 1.375em; margin: 0 0 -30px;}
+.search .item-box .description .required{float: left; margin: 0 0 0 -15px; font-size: 1.375em;}
+        .add-agents .item-box .item .select-item,
+		.search .item-box .item .select-item{width:77%; float:left; position: relative;}
+        .search .item-box.big .item .select-item{width: 100%;}
+            .add-agents .item-box .item .select-item .item.left,
+			.search .item-box .item .select-item .item.left{width:38.5%; float:left; padding:0;}
+            .add-agents .item-box .item .select-item .item.right,
+			.search .item-box .item .select-item .item.right{width:57.5%; float:left; padding:0;}
+				.add-agents .item-box .item .select-item .item label,
+				.search .item-box .item .select-item .item label{width:36px;padding:0 14px 0 0;}
+                .search .item-box.big.big .item .select-item .item label {width: 220px;}
+				.add-agents .item-box .item .select-item select,
+				.search .item-box .item .select-item .item select{width:68.3%;}
+                .search .item-box.big .item .select-item .item select{width:100%;}
+                .search .item-box.big .item .select-item .item.label{width: 235px}
+                .search .item-box.big .item .select-item .item.right{width:213px; float:left; padding:0;}
+				
+				.add-agents .item-box .item .select-item .item.left select,
+				.search .item-box .item .select-item .item.left select{width:100%;}
+.add-agents .item-submit,
+.search .item-submit{padding:14px 0 0 131px; float:left; clear: both;}
+.search .item-box.big  .item-submit{padding:14px 0 0 237px;}
+.admin .item-submit{padding:14px 0 0 62px;}
+
+.item a.date{width:28px; height:28px; border:2px solid #515255; color:#515255; text-align:center; line-height:2em; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; font-weight:900; float: left; position: relative; margin: 3px -15px 0 -35px; font-size: 16px;}
+.item a.date span{display:block; width:100%; height:2px; background:#515255; position:absolute; left:0; top:3px;}
+.item a.date:hover{text-decoration:none;}
+.search .item-box .item .select-item .item.right input[type="text"]{width:57%; float: left;}
+.search .item-box .item .select-item .item.left input[type="text"]{width:89%; float: left;}
+.search .item-box .item .select-item .clear_date{padding: 0; margin: 0; display: block; border: 0; background: none; color:#b1b1b1; font-weight: 400; position: absolute; top: 0px; left:85%; padding: 0 5px;}
+.search .item-box .item .select-item .clear_date:hover{color: #f46a02}
+.item div.date input[type="text"]{cursor: pointer;}
+
+.texts-send .item .chekbox,
+.search .item-box .item .chekbox{ float: left; width: 50%; margin: 5px 0 0 0;}
+.chekbox.small{width:72.5%; float: left; height:40px; margin: 0 -49px 0 0; }
+.chekbox label{display:block; clear:both; padding:0 0 0 33px; cursor:pointer; width: auto; line-height: 1.4em;}
+.chekbox.small.right label{clear:none; padding:0 33px 0 0; margin: 10px 49px 0 0; float: left; }
+	.chekbox input[type="checkbox"] + label::before{ margin:0px 17px 12px -33px;}
+	input[type="checkbox"] {display:none;}
+	input[type="checkbox"] + label::before{content:''; display:block; float:left; margin:0px 17px 12px 0;   width:20px; height:20px; cursor:pointer; background:url(../images/chekboxes.png) no-repeat 0 -21px;}
+	.chekbox.right input[type="checkbox"] + label::before{float:right; margin:0px -33px 12px 17px;}
+	input[type="checkbox"]:checked + label::before{background-position:0 0;}
+	input[type="checkbox"]:disabled + label::before{background-position:0 -63px;}
+	input[type="checkbox"]:checked:disabled + label::before{background-position:0 -42px;}

@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Src="~/Controls/MasterPage/Meta.ascx" TagName="Meta" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/MasterPage/Header.ascx" TagName="Header" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/MasterPage/Footer.ascx" TagName="Footer" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/MasterPage/Popup.ascx" TagName="Popup" TagPrefix="uc" %>
+<%@ Register Src="~/Controls/MasterPage/Social.ascx" TagName="Social" TagPrefix="uc" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head runat="server">
+        <title>FlyerMe</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=8" />
+        <uc:Meta ID="meta" runat="server" />
+        <meta name="p:domain_verify" content="3ad69eba20035c2b67b61d82853459b5"/>
+		<link href="<%= ResolveUrl("~/images/favicon.ico") %>" rel="shortcut icon" />
+		<link href="<%= ResolveUrl("~/css/owl.carousel.min.css") %>" rel="stylesheet" type="text/css" />
+		<link href="<%= ResolveUrl("~/css/reset.css") %>" rel="stylesheet" type="text/css" />
+		<link href="<%= ResolveUrl("~/css/style.css") %>" rel="stylesheet" type="text/css" />
+		<link href="<%= ResolveUrl("~/css/adaptive.css") %>" rel="stylesheet" type="text/css" />
+	</head>
+	<body class="bigfooter" id="bodyMain">	
+		<div class="wrapper">
+			<uc:Header Id="Header" runat="server" />
+			<div id="content">
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+			</div>
+			<uc:Footer ID="Footer" runat="server" />
+            <asp:ContentPlaceHolder ID="cphAfterFooter" runat="server" />
+			<uc:Popup ID="Popup" runat="server" />
+		</div>
+        <asp:ContentPlaceHolder ID="cphScriptsControl" runat="server"></asp:ContentPlaceHolder>
+		<asp:ContentPlaceHolder ID="cphScripts" runat="server"></asp:ContentPlaceHolder>
+        <uc:Social ID="social" runat="server" />
+	</body>
+</html>

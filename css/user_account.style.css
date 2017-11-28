@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+.account{width:100%; max-width:680px; margin:66px auto 42px;}
+.bigfooter .account{margin:24px auto 0;}
+.cards{padding:0 12px;}
+	.cards .card{width:222px; height:136px; margin:0 19px 9px; border-radius:13px; -webkit-border-radius:13px; -moz-border-radius:13px; background:#224da3 url(../images/card.png) no-repeat 165px 14px; float:left;}
+		.cards .card .number{padding:46px 0 14px 21px; color:#ffffff; font-size:1.25em; font-weight:400; letter-spacing:0.16em;}
+		.cards .card .cvc{width:112px; height:28px; padding:12px 0 0 0; text-align:center; margin:0 0 0 16px; background:#ffffff; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; float:left;}
+		.cards .card .info{width:26px; height:27px; display:block; background:url(../images/mini_icons.png) no-repeat -24px -64px; float:left; margin:7px 0 0 18px}
+	.cards .add_card{width:220px; display:block; height:134px; margin:0 19px 9px; border-radius:13px; -webkit-border-radius:13px; -moz-border-radius:13px; background:#f5f5f5 url(../images/mini_icons.png) no-repeat 70px -256px;
+	 float:left; border:1px solid #ededef;}
+	.cards .add_card:hover{border-color:#f46a02; background-position:70px -401px;}
+	
+.account table{margin:0 4.5%;  width:91%; border-bottom:2px solid #dce0e0;}
+.account .block-mail{padding:14px 16px; border:1px solid #dde3e3;}
+.account .block-mail table{margin:0;  border:0; }
+.account .block-mail p{width:auto;}
+.account .block-mail hr{float:none;}
+.account .block-mail .con{background:#ffffff;}
+.account .block-mail table table {margin:0; width:100%;}
+.account .block-mail table table table{width:auto;}
+.account .block-mail table table table[width="100%"]{width:100%;}
+.account .block-mail table table table td{background-size:cover;}
+
+.account .delivery{padding:25px 0 70px; width:100%; float:left;}
+.account .delivery .text{ font-size:14px; width:100%; float:left;}
+.account .delivery p{padding:0;}
+.account .delivery table{margin:20px 0 27px; width:310px; border-bottom:2px solid #dce0e0; border-top:2px solid #dce0e0; line-height:2.625em; float:left;}
+.account .delivery table td{border-bottom:1px solid #dce0e0;}
+#piechart{width: 280px; height: 290px; float:left; margin:-27px -10px 20px 10px;}
+
+#editor {position:relative; width: 98%; height: 268px; line-height:normal; background:#f8f8f8; padding:0 1%; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; border:1px solid #e2e2e9;}
+
+.account table.history th:nth-child(2){width:24%;}
+.account table.history th:nth-child(4){width:12%;}
+.account table.history td{ height:70px; vertical-align:middle; padding:0 4% 0 0; font-size:0.875em; line-height:1.143em;}
+.account table.history tr{border-bottom:1px solid #dce0e0;}
+.account table.history td:nth-child(1) input[type="checkbox"] + label::before{ margin-top:10px;}
+.account table.history td:nth-child(3){ padding:0 12% 0 0; font-weight:600; text-transform:uppercase;}
+
+
+.account table.sumary th:nth-child(1){width:27%;}
+.account table.sumary th:nth-child(3){width:10%;}
+.account table.sumary td{ height:70px; vertical-align:middle; padding:0 4% 0 0; font-size:0.875em; line-height:1.143em;}
+.account table.sumary tr{border-bottom:1px solid #dce0e0;}
+.account table.sumary td:nth-child(2){ padding:0 12% 0 0; font-weight:600; text-transform:uppercase;}
+
+.account .total{margin:27px 30px 40px; overflow:hidden;}
+.account .total .sub{width:145px; margin:0 0 0 10px; float:left; font-size:0.875em}
+.account .total .total{width:142px; float:left; margin:0 0 0 10px; font-size:0.875em}
+
+.account .coupon{padding:27px 30px 28px; background:#fafafa; border-top:1px solid #dce0e0; margin:0 0 -31px; overflow:hidden}
+
+.account .more{display:block; background:#f5f5f5; border:1px solid #ededef;border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; margin:17px 30px 0; font-size:0.938em; line-height:1.2em; text-align:center; font-weight:600; color:#515254; padding:13px 0;}
+.account .more:hover{color:#ffffff; text-decoration:none; border-color:#3c3d41; background:#3c3d41;}
+
+
+.account-flyers{width:100%; max-width:1056px; margin:84px auto 42px; overflow:hidden}
+	.flyers-menu{display:block; padding:0 12px; margin:0; list-style-type:none;}
+		.flyers-menu li{display:block; float:left; padding:0 22px 0 0; margin:0; list-style-type:none;}
+			.flyers-menu li a{color:#515254; font-size:0.875em; font-weight:600; letter-spacing:0.01em; border-bottom:3px solid transparent; padding:0 4px 10px;}
+			.flyers-menu li a.active,
+			.flyers-menu li a:hover,
+			.flyers-menu li a:active{color:#f46a02; border-color:#f46a02; text-decoration:none;}
+			
+	.account-flyers .content{width:100%; padding:47px 0 0; float:left;}
+		.account-flyers .content .pager{margin-top:25px;}
+		.account-flyers .content .block{width:100%;  border:1px solid #ededee; background:#ffffff; margin:0 0 21px; float:left; position:relative; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; overflow:hidden;}
+			.account-flyers .content .block .image{width:176px; height:176px; overflow:hidden; float:left; margin:15px 1.5% 15px -98.5%; text-align:center}
+			.account-flyers .content .block .image img{ vertical-align:middle; max-width:100%; max-height:100%; height:auto;border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px;}
+			.account-flyers .content .block .image .table-cell{width:171px; height:171px;}
+			.account-flyers .content .block .text{padding:27px 0px 30px; margin:0 470px 0 223px; font-size:0.875em;}
+				.account-flyers .content .block .text .sel{color:#b1b1b1; padding:0 0 18px;}
+				.account-flyers .content .block .text .filed{line-height:normal; padding:7px 0 0; color:#000000; letter-spacing:-0.02em}
+				.account-flyers .content .block .text .filed.link{color:#09509e;}
+				.account-flyers .content .block .text .title{ font-weight:600; text-transform:uppercase; padding:0 0 10px;}
+				.account-flyers .content .block .text .title a{color:#515254;}
+				.account-flyers .content .block .text .price{ font-weight:600; text-transform:uppercase; padding:0 0 16px; color:#09509e;}
+				.account-flyers .content .block .text .status{ font-weight:600; text-transform:uppercase; padding:0 0 18px;}
+				.account-flyers .content .block .text .status.incomplete{color:#ff0000;}
+				.account-flyers .content .block .text .status.scheduled{color:#f37b22;}
+				.account-flyers .content .block .text .status.sent {color:#31b734;}
+				.account-flyers .content .block .text .status.archived{color:#939393;}
+				.account-flyers .content .block .text .status.expried{color:#bd409e;}
+				.account-flyers .content .block .text .status.queued{color:#3ca1d5;}
+				.account-flyers .content .block .text .status.pending_approval{color:#09509e;}
+				.account-flyers .content .block .text .status.complete{color:#31c13f; padding:0 0 18px 15px; position:relative; width:100%; float:left;}
+					.account-flyers .content .block .text .status.complete:after{content:''; display:block; width:9px; height:6px; position:absolute; top:5px; left:0; 
+					background:url(../images/mini_icons.png) no-repeat -71px -234px;}
+				.account-flyers .content .block .text .send{text-transform:uppercase; padding:0 0 10px; width:100%; float:left;}
+					.account-flyers .content .block .text .send .send{display:block; width:auto; float:left; padding:13px 21px 13px 47px; border:1px solid #224da3; margin:5px 0 0 0; background:#224da3 url(../images/mini_icons.png) no-repeat 21px -520px; 
+					text-transform:uppercase; font-size:0.786em; font-weight:600; color:#ffffff; border-radius:20px; -webkit-border-radius:20px; -moz-border-radius:20px; letter-spacing:0.01em;}
+					.account-flyers .content .block .text .send .send:hover{background-color:#ffffff; background-position:-57px -1261px; color:#224da3; text-decoration:none;}
+					.account-flyers .content .block .text .send .willsend{display:block; float:left; padding:14px 20px 14px 38px; margin:5px 0 0 0; background:#ffffff url(../images/mini_icons.png) no-repeat 16px -547px; 
+					text-transform:uppercase; border:1px solid #b1b1b1; white-space:nowrap; font-size:0.786em; font-weight:600; color:#b1b1b1; border-radius:20px; -webkit-border-radius:20px; -moz-border-radius:20px;
+					 letter-spacing:-0.01em;}
+						.account-flyers .content .block .text .send .willsend span{border-bottom:1px dashed #b1b1b1;}
+					.account-flyers .content .block .text .send .willsend:hover{text-decoration:none; border-color:#3c3d41; color:#3c3d41; background-position:16px -578px;}
+					.account-flyers .content .block .text .send .willsend:hover span{border-color:#3c3d41;}
+			.account-flyers .content .block .links{width:470px; margin:0 0 0 -470px; float:left;}
+				.account-flyers .content .block .links ul{display:block; float:left; padding:10px 40px 200px; min-width:200px; margin:0 0 -190px; list-style-type:none; font-size:0.875em; line-height:1.714em; border-left:1px solid #ededee;}
+				.account-flyers .content .block .links ul:nth-child(2){background:#fcfcfc; min-width:110px; margin:0 -20px -190px 0;}
+					.account-flyers .content .block .links ul li{padding:0; list-style-type:none; margin:0; display:block;}
+						.account-flyers .content .block .links ul li a{color:#f46a02; text-decoration:underline;}
+						.account-flyers .content .block .links ul li a.gray{color:#b4b4b4;}
+						.account-flyers .content .block .links ul li a:hover{text-decoration:none;}

@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 1700px) {
+    .search .item-box .item .select-item{width: 75%;}
+    .search .item-box .item .select-item .clear_date{left: 89%;}
+    .add-agents .item-box .item .select-item .item.right, 
+    .search .item-box .item .select-item .item.right{width: 50%;}
+    .add-agents .item-box .item .select-item .item.left, 
+    .search .item-box .item .select-item .item.left{width: 50%;}
+     #content .outside-content .contnet .table table td:not(.del),
+     #content .outside-content .contnet .table table td:not(.del){ min-width: 50px;}
+     #content .outside-content .contnet .table table td.del,
+     #content .outside-content .contnet .table table td.del{ min-width: 20px;}    
+}
+@media screen and (max-width: 1500px) {
+    .search .item-box .item .select-item{width: 74%;}
+    .search .item-box .item .select-item .item.right input[type="text"]{width:54%;}
+    .search .item-box .item .select-item .item.left input[type="text"]{width:86%;}
+    .search .item-box .item .select-item .clear_date{left: 90%;}
+    .item .file-text{width: 40%;}
+}
+@media screen and (max-width: 1400px) {
+		.search .item-box .item .select-item{width:72%;}
+    .search .item-box .item .select-item .clear_date{left: 99%;}
+        #content .outside-content .contnet .table table th{padding:20px 1%;}
+        #content .outside-content .contnet .table table td{padding:18px 1%;}
+            #content .outside-content .contnet .table.small table td{padding:18px 14px;}
+            #content .outside-content .contnet .table.micro table td{padding:18px 14px;}
+    .item select{width: 66.3%;}
+}
+@media screen and (max-width: 1300px) {
+		.search .item-box .item .select-item{width:71%;}
+}
+@media screen and (max-width: 1250px) {
+	#content .outside-content .contnet .search{padding:32px 20px; width:100%;  margin:0px 0 0 -12px; float:left; background:#f0f0f0;}
+	#content .outside-content .contnet .back{margin:0 0 0 -12px;width: 104.4%;}
+	#content .outside-content .contnet .block-menu{padding:21px 12px 22px 28px;  margin:0px 0 0 -12px;}
+	#content .outside-content .contnet{padding:0px 22px 0px 12px;}
+	#content .outside-content{margin:0 0 0 132px;}
+	.left_bg,
+	#left{width:132px;}
+	#left ul li a{padding:7px 4px 7px 10px; font-size:0.875em}
+    #left ul li ul li a{padding:7px 12px 7px 10px; font-size:0.750em}
+	.search .item-box .item .select-item .item.left{width:37%;}
+	.search .item-box .item .select-item .item.right{width:63%;}
+	.search .item-box .item .select-item .item select{width:62.3%}
+    .search .item-box .item .select-item .item.right input[type="text"]{width:51%; float: left;}
+    .search .item-box .item .select-item .item.left input[type="text"]{width:81%; float: left;}
+    
+    .item .file-text{width: 37%;}
+    #content .outside-content .contnet .back.bottom{margin: 0 0 0 132px;}
+    #left .main-menu a span{display: none;}
+	}
+@media screen and (max-width: 1120px) {
+    .search .item-box .item .select-item{width:67%;}
+    .admin .item input[type="email"],
+    .admin .item input[type="password"],
+    .admin .item input[type="text"]{width:49%;}
+}
+	@media screen and (max-width: 1000px) {
+	#content .outside-content .contnet .table{overflow-y:hidden;}
+        .item .tekst-input{width: auto;}
+        .item .tekst-input input[type="submit"]{float: none; margin: 8px 0 0;}
+        .item .tekst-input a{float: none;}
+		.item input[type="password"],
+		.item input[type="text"]{width:55%;}
+		.item textarea{width:55%;}
+		.search .item-box .item .select-item{width:62%;}
+		.item select{width:61.3%;}
+    .item .file-text{width: 28%;}
+        .search .item-box .item .select-item .item.right input[type="text"]{width:45%; float: left;}
+        .search .item-box .item .select-item .item.left input[type="text"]{width:74%; float: left;}
+        #content .outside-content .contnet .texts-send .box-item{width: 100%;}
+            .add-agents .item-box .item .select-item, 
+        .search .item-box .item .select-item{width: 100%;}
+.big #editor{ height:300px;width:78%;}
+	}
+	
+	@media screen and (max-width: 890px) {	
+	#content .outside-content .contnet .back{margin:0 0 0 -12px;width: 103.4%;}
+        
+        .bigform input[type="text"],
+        .bigform input[type="password"],
+        .bigform input[type="email"]{width: 80%;}
+        .add-agents .item-box,
+		.search .item-box{width:100%;}
+		.search .item-box .item .select-item{width:78%;}
+		.item input[type="text"],
+		.item input[type="password"],
+		.item input[type="email"]{width:69%;}
+		.item textarea{width:69%;}
+		.item select{width:72.3%;}
+        .search .item-box .description{margin: 0 0 0 131px;}
+		.search .item-box .item .select-item .item.left{width:42.5%;}
+		.search .item-box .item .select-item .item.right{width:57.5%;}
+		.search .item-box .item .select-item .item select{width:68.3%}
+		#content .outside-content .contnet .block-menu ul li a{overflow:hidden; display:block; width:15px; text-indent:-9999px;}
+        #content .outside-content .contnet .block-menu a span{display:block; float:left;}
+            
+        .search .item-box .item .select-item .item.right input[type="text"]{width:60%; float: left;}
+        .search .item-box .item .select-item .item.left input[type="text"]{width:89%; float: left;}
+        .search .item-box .item .select-item .clear_date{left:93%;}
+    .item .file-text{width: 52%;}
+	#content .outside-content .contnet .back{width: 105%;}
+        
+        .item .tekst-input{width: 72%;}
+        .item .tekst-input input[type="submit"]{float: right; margin: 0;}
+        .item .tekst-input a{float: left;}
+	}
+	@media screen and (max-width: 780px) {
+		.search .item-box .item .select-item{width:74%;}
+        .item input[type="text"],
+        .item input[type="password"],
+        .item input[type="email"]{width: 65%;}
+        .item textarea { width: 65%;}
+        .item select{width: 68%;}
+		#content .outside-content .contnet .block-menu a{overflow:hidden; display:block; width:15px; text-indent:-9999px;}
+        #content .outside-content .contnet .texts-send .box-item .item input[type="text"]{width: 69%;}
+        .search .item-box .item .select-item .clear_date{left:96%;}
+        .search .item-box .item .select-item .item.right input[type="text"]{width:58%; float: left;}
+        .search .item-box .item .select-item .item.left input[type="text"]{width:87%; float: left;}
+    .item .file-text{width: 42%;}
+	#content .outside-content .contnet .back{width: 108%;}
+        .item .tekst-input{width: 68%;}
+	}
+	@media screen and (max-width: 680px) {
+	#content .outside-content .contnet .back{width: 110%;}
+        .item label{text-align: left;}
+	header .logo{width:132px;}
+	header .menu a{width:1px; overflow:hidden; text-indent:-999px; padding:29px 0px 29px 63px;}
+		header .menu a.user{background-position:24px 24px;}
+		header .menu a.settings{background-position:24px -24px; padding-left:63px;}
+		header .menu a.reports{background-position:24px -332px;}
+		header .menu a.logout{background-position:24px -440px; padding-left:63px;}
+    .item .file-text{width: 38%;}
+}

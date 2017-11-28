@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPagePopup.master.cs" Inherits="FlyerMe.Admin.MasterPagePopup" %>
+<%@ Register Src="~/Admin/Controls/MasterPagePopup/Header.ascx" TagName="Header" TagPrefix="uc" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head runat="server">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=8" />
+		<link href="<%= ResolveUrl("~/images/favicon.ico") %>" rel="shortcut icon" />
+		<title><%= clsUtility.ProjectName %></title>
+        <link href="<%= ResolveUrl("~/admin/css/reset.css") %>" rel="stylesheet" type="text/css" />
+        <link href="<%= ResolveUrl("~/admin/css/note.css") %>" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+        <div class="wrapper">
+            <uc:Header runat="server" />
+            <asp:ContentPlaceHolder ID="cphContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <asp:ContentPlaceHolder ID="cphScriptsControl" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="cphScripts" runat="server"></asp:ContentPlaceHolder>
+	</body>
+</html>

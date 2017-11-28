@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="FlyerMe.Admin.MasterPage" %>
+<%@ Register Src="~/Admin/Controls/MasterPage/Header.ascx" TagName="Header" TagPrefix="uc" %>
+<%@ Register Src="~/Admin/Controls/MasterPage/Footer.ascx" TagName="Footer" TagPrefix="uc" %>
+<%@ Register Src="~/Admin/Controls/MasterPage/LeftSidebar.ascx" TagName="LeftSidebar" TagPrefix="uc" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head runat="server">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=8" />
+		<link href="<%= ResolveUrl("~/images/favicon.ico") %>" rel="shortcut icon" />
+		<title><%= clsUtility.ProjectName %></title>
+        <link href="<%= ResolveUrl("~/admin/css/reset.css") %>" rel="stylesheet" type="text/css" />
+        <link href="<%= ResolveUrl("~/admin/css/style.css") %>" rel="stylesheet" type="text/css" />
+        <link href="<%= ResolveUrl("~/admin/css/adaptive.css") %>" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+        <div class="left_bg"></div>
+        <div class="wrapper">
+            <uc:Header ID="header" runat="server" />
+            <div id="content">
+		        <asp:ContentPlaceHolder ID="cphContent" runat="server"></asp:ContentPlaceHolder>
+                <uc:LeftSidebar ID="leftSidebar" runat="server" />
+            </div>
+            <uc:Footer ID="footer" runat="server" />
+        </div>
+        <asp:ContentPlaceHolder ID="cphScriptsControl" runat="server"></asp:ContentPlaceHolder>
+        <asp:ContentPlaceHolder ID="cphScripts" runat="server"></asp:ContentPlaceHolder>
+	</body>
+</html>

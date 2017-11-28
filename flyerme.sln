@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "flyerme", "http://localhost/flyerme", "{21A748CB-B278-4CB0-8C0B-16A6758B8B60}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		Debug.AspNetCompiler.VirtualPath = "/flyerme"
+		Debug.AspNetCompiler.PhysicalPath = "..\CodeNew\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\flyerme\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/flyerme"
+		Release.AspNetCompiler.PhysicalPath = "..\CodeNew\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\flyerme\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\CodeNew\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StaticCode", "StaticCode", "{93163FFD-2A1E-4600-8317-11D68458C417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Infrastructure", "..\StaticCode\Project.Infrastructure\Project.Infrastructure.csproj", "{E128F86F-9BFB-4149-934D-4B625365B7E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Tasks", "..\StaticCode\Project.Tasks\Project.Tasks.csproj", "{4291A772-EC25-4B23-A1AA-A12287871223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.TasksConsole", "..\StaticCode\Project.TasksConsole\Project.TasksConsole.csproj", "{83E9E6A4-A192-4DEF-9AB8-067B1F15BE2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.TasksService", "..\StaticCode\Project.TasksService\Project.TasksService.csproj", "{769E465B-19A6-4B10-B202-97D3D18CB47E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21A748CB-B278-4CB0-8C0B-16A6758B8B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A748CB-B278-4CB0-8C0B-16A6758B8B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21A748CB-B278-4CB0-8C0B-16A6758B8B60}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{21A748CB-B278-4CB0-8C0B-16A6758B8B60}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E128F86F-9BFB-4149-934D-4B625365B7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E128F86F-9BFB-4149-934D-4B625365B7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E128F86F-9BFB-4149-934D-4B625365B7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E128F86F-9BFB-4149-934D-4B625365B7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4291A772-EC25-4B23-A1AA-A12287871223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4291A772-EC25-4B23-A1AA-A12287871223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4291A772-EC25-4B23-A1AA-A12287871223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4291A772-EC25-4B23-A1AA-A12287871223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E9E6A4-A192-4DEF-9AB8-067B1F15BE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E9E6A4-A192-4DEF-9AB8-067B1F15BE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E9E6A4-A192-4DEF-9AB8-067B1F15BE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E9E6A4-A192-4DEF-9AB8-067B1F15BE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769E465B-19A6-4B10-B202-97D3D18CB47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769E465B-19A6-4B10-B202-97D3D18CB47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769E465B-19A6-4B10-B202-97D3D18CB47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769E465B-19A6-4B10-B202-97D3D18CB47E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E128F86F-9BFB-4149-934D-4B625365B7E8} = {93163FFD-2A1E-4600-8317-11D68458C417}
+		{4291A772-EC25-4B23-A1AA-A12287871223} = {93163FFD-2A1E-4600-8317-11D68458C417}
+		{83E9E6A4-A192-4DEF-9AB8-067B1F15BE2D} = {93163FFD-2A1E-4600-8317-11D68458C417}
+		{769E465B-19A6-4B10-B202-97D3D18CB47E} = {93163FFD-2A1E-4600-8317-11D68458C417}
+	EndGlobalSection
+EndGlobal
